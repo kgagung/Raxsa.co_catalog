@@ -1,0 +1,10 @@
+{
+    "app": {
+      "script": "index.php",
+      "workers": 4,
+      "static": {
+        "dir": "public"
+      }
+    }
+  }
+  
