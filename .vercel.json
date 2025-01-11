@@ -1,16 +1,15 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "Dockerfile",
-        "use": "@vercel/docker"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/var/www/public/$1"
-      }
-    ]
-  }
-  
+  "version": 2,
+  "builds": [
+    {
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/var/www/public/$1"
+    }
+  ]
+}
